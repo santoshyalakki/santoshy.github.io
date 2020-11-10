@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adobe Assignment</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Adobe Assigment" />
+
+<!-- //for-mobile-apps -->
+<link href="css/adobe.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome icons -->
+
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+</head>
+
+<script type="text/javascript">
+function calculate() {
+   var price=0, discount=0, afterDiscount=0;
+    price = Number(document.discountCalculator.price.value);
+    discount = Number(document.discountCalculator.discount.value);
+
+
+ afterDiscount=price - ( price*discount/100 );
+
+   document.discountCalculator.price.value=price.toFixed(2);
+   document.discountCalculator.discount.value=discount.toFixed(2);
+   document.discountCalculator.afterDiscount.value=afterDiscount.toFixed(2);
+
+}
+</script>
+
+<body>
+<!-- header -->
+	<div class="adobe_header">
+		<div class="adobel_offers">
+			<a href="index.html">Adobe Assignment</a>
+		</div>
+		<div class="adobel_search">
+			<form action="#" method="post">
+				<input type="text" name="Product" value="Search a product..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search a product...';}" required="">
+				<input type="submit" value=" ">
+			</form>
+		</div>
+		<div class="product_list_header">  
+			<form action="#" method="post" class="last">
+                <fieldset>
+                    <input type="hidden" name="cmd" value="_cart" />
+                    <input type="hidden" name="display" value="1" />
+                    <input type="submit" name="submit" value="View your cart" class="button" />
+                </fieldset>
+            </form>
+		</div>
+		
+		<div class="adobel_header_right1">
+			<h2><a href="#">Support</a></h2>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	
+			
+<!-- //header -->
+	
+	<div class="top-brands1">
+		<div class="container">
+			<center><h1>Products</h1></center>
+			<div class="agile_top_brands_grids">
+				<div class="col-md-3 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" "  />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+											<a href="#"><img src="https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90" title="Samsung Series 4" alt="" height="150px" width="150px" /></a>		
+											<p>Samsung Series 4</p>
+											<h4>&#x20B9; 13999.00 <span>&#x20B9; 22500.00</span></h4>
+											
+											<p><font color="red">37%</font> Discount</p>
+										</div>
+										<div class="snipcart-details top_brand_home_details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Samsung Series 4" />
+													<input type="hidden" name="amount" value="22500.00" />
+													<input type="hidden" name="discount_amount" value="8501.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+													
+											</form>
+									
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+						<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" "  />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+
+											<a href="#"><img src="https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90"  title="Samsung Super 6" alt="" height="150px" width="150px" /></a>		
+											<p>Samsung Super 6</p>
+											<h4>&#x20B9; 35999.00 <span>&#x20B9; 66900.00</span></h4>
+											<p><font color="red">46%</font> Discount</p>
+										</div>
+										<div class="snipcart-details top_brand_home_details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Samsung Super 6" />
+													<input type="hidden" name="amount" value="66900.00" />
+													<input type="hidden" name="discount_amount" value="30901.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" "  />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90" title="Samsung The Frame" alt="" height="150px" width="150px" /></a>
+											<p>Samsung The Frame</p>
+											<h4>&#x20B9; 84999.00 <span>&#x20B9; 133900.00</span></h4>
+											<p><font color="red">36%</font> Discount</p>
+										</div>
+										<div class="snipcart-details top_brand_home_details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Samsung The Frame" />
+													<input type="hidden" name="amount" value="133900.00" />
+													<input type="hidden" name="discount_amount" value="48901.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" " class="img-responsive" />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90" title="Thomson B9 Pro" alt="" height="150px" width="150px" /></a>
+											<p>Thomson B9 Pro</p>
+											<h4>&#x20B9; 9999.00 <span>&#x20B9; 16999.00</span></h4>
+											<p><font color="red">41%</font> Discount</p>
+										</div>
+										<div class="snipcart-details top_brand_home_details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Thomson B9 Pro" />
+													<input type="hidden" name="amount" value="16999.00" />
+												    <input type="hidden" name="discount_amount" value="7000.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //top-brands -->
+
+
+
+<script src="js/minicart.js"></script>
+<script>
+		adobe.minicart.render();
+
+		adobe.minicart.cart.on('checkout', function (evt) {
+			var items = this.items(),
+				len = items.length,
+				total = 0,
+				i;
+
+			// Count the number of each item in the cart
+			for (i = 0; i < len; i++) {
+				total += items[i].get('quantity');
+			}
+
+			if (total < 1) {
+				alert('The minimum order quantity is 1. Please add item to your shopping cart before checking out');
+				evt.preventDefault();
+			}
+		});
+
+	</script>
+</body>
+</html>
